@@ -32,7 +32,7 @@ function App() {
     <div className='container'>
       <img src={url} alt='banner' className='img' />
       <div className='wrapper'>
-        <h1>Simple file sharing!</h1>
+        <h1>Simple File Sharing!</h1>
         <p>Upload and share the download link.</p>
         
         <button onClick={() => onUploadClick()}>Upload</button>
@@ -42,7 +42,6 @@ function App() {
           style={{ display: "none" }}
           onChange={(e) => setFile(e.target.files[0])}
         />
-
         <a href={result}>{result}</a> 
       </div>
     </div>

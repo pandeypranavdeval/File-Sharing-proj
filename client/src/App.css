@@ -48,3 +48,12 @@ button:hover{
   color: #445a6f;
 }
 
+p{
+  color: rgb(81, 94, 80);
+  font-weight:500;
+}
+
+a{
+  color: #445a6f;
+  font-weight: 400;
+}
