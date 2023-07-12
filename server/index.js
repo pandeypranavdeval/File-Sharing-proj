@@ -12,4 +12,8 @@ const PORT=8000;
 
 DBconnetion();
 
+app.get('/',(req,res)=>{
+    res.send("server started congrats");
+});
+
 app.listen(PORT,()=> console.log(`Server is running on PORT ${PORT}`));
